@@ -1,7 +1,15 @@
 # JavaScript-Equality-Table
-Is the table
-which told you
-diffrence between
+.
+.
+.
+[Click to see the result](https://withrvr.github.io/JavaScript-Equality-Table/.)
+ or 
+[https://withrvr.github.io/JavaScript-Equality-Table/.](https://withrvr.github.io/JavaScript-Equality-Table/.)
+.
+.
+.
+Is the table that told you
+the difference between
 == and ===
 
 will commited soon....

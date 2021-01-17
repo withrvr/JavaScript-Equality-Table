@@ -1,2 +1,8 @@
 # JavaScript-Equality-Table
-JavaScript-Equality-Table is the table which told you diffrence between == and ===
+Is the table
+which told you
+diffrence between
+== and ===
+
+will commited soon....
+in 3 4 days

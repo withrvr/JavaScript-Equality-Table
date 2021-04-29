@@ -3,3 +3,4 @@ Result:- https://withrvr.github.io/JavaScript-Equality-Table/
 ( == vs === )
 In Javascript
 </pre>
+Inspired from:- https://github.com/dorey/JavaScript-Equality-Table

@@ -1,0 +1,13 @@
+# vscode setting
+__pycache__
+.vscode
+
+# foo files
+foo.*
+bar.*
+foobar.*
+
+# foo folders
+foo
+bar
+foobar

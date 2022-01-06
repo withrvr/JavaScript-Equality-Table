@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		@apply scroll-smooth;
+	}
+}
+
+.container {
+	@apply md:px-8 3xl:px-4;
+}
+
+.link {
+	@apply text-blue-600 hover:underline hover:text-blue-700 cursor-pointer;
+}

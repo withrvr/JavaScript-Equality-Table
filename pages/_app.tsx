@@ -35,11 +35,15 @@ const App = ({ Component, pageProps }: AppProps) => {
 				/>
 			</Head>
 
-			<Navbar />
+			<div id="wrapper" className="flex flex-col md:flex-row ">
+				<div className="my-3 w-[19rem] md:w-40 self-center md:self-start">
+					<Navbar />
+				</div>
 
-			<main id="main-content" className="container">
-				<Component {...pageProps} />
-			</main>
+				<main id="main-content" className="my-5 mx-auto">
+					<Component {...pageProps} />
+				</main>
+			</div>
 		</>
 	);
 };

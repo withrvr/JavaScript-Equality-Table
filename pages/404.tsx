@@ -12,7 +12,7 @@ const Error404 = () => {
 				<title>404 - Page Not Found</title>
 			</Head>
 
-			<div className="my-5 md:my-20 text-center">
+			<div className="text-center">
 				<Image
 					src="/images/are_you_sure_about_that.gif"
 					alt="are_you_sure_about_that john cena image"

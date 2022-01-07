@@ -3,10 +3,15 @@ import Link from "next/link";
 const Navbarlinks = ({ href, text }: { href: string; text: string }) => {
 	return (
 		// hover:border-primary
-		<Link href={href}>
-			<a className="py-2 text-2xl font-medium border-current border-b-2 hover:text-yellow-400 hover:border-yellow-400 active:text-red-500 active:border-red-500">
+		<Link passHref={true} href={href}>
+			<div
+				className="cursor-pointer text-center w-full font-medium rounded
+					text-3xl
+					py-2 md:py-3 
+					hover:bg-white hover:border-yellow-400 active:text-red-500"
+			>
 				{text}
-			</a>
+			</div>
 		</Link>
 	);
 };

@@ -1,8 +1,11 @@
-import Navbarlinks from "@/components/Navbarlinks";
+import Link from "next/link";
+import Image from "next/image";
+
+import Navitems from "@/components/Navitems";
 
 const Navbar = () => {
 	return (
-		<nav className="flex md:flex-col gap-x-5 md:gap-y-2 items-center justify-center">
+		<nav className="flex md:flex-col gap-x-5 md:gap-y-2 items-center">
 			{/* <Link passHref={true} href="/">
 						<Image
 							alt="logo"
@@ -13,11 +16,13 @@ const Navbar = () => {
 						/>
 					</Link> */}
 
-			<Navbarlinks href="/" text="===" />
-			<Navbarlinks href="/" text="==" />
-			<Navbarlinks href="/" text="if()" />
+			<Navitems href="/" text="home" />
 
-			{/* <Navbarlinks href="/404" text="404" /> */}
+			<Navitems href="/3-equal-to" text="===" />
+			<Navitems href="/2-equal-to" text="==" />
+			<Navitems href="/if-condition" text="if()" />
+
+			{/* <Navitems href="/404" text="404" /> */}
 		</nav>
 	);
 };

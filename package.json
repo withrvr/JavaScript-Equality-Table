@@ -1,8 +1,8 @@
 {
-	"name": "your-project-name",
-	"version": "0.1.0",
+	"name": "javascript-equality-table-withrvr",
+	"version": "0.2.0",
 	"private": true,
-	"description": "Your Description",
+	"description": "Comparison / Difference Between ( == vs === ) and if() execution",
 	"email": "contactwithrvr@gmail.com",
 	"scripts": {
 		"dev": "next dev",
@@ -27,6 +27,13 @@
 		"typescript": "^4.5.4"
 	},
 	"keywords": [
+		"Javasript-Equality-Table",
+		"equal-to",
+		"equal-to-comparison",
+		"===",
+		"==",
+		"if",
+		"javascript",
 		"nextjs",
 		"tailwindcss",
 		"typescript"

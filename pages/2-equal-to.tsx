@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import Table from "@/components/Table";
+import Table from "components/Table";
 
 const TwoEqualTo = () => {
 	const title = "2 Equal To ( == )";

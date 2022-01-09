@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import Navitems from "@/components/Navitems";
+import Navitems from "components/Navitems";
 
 const Navbar = () => {
 	return (

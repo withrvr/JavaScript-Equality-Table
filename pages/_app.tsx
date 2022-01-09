@@ -3,17 +3,17 @@ import Head from "next/head";
 
 import NextNProgress from "nextjs-progressbar";
 
-import Tailwindbreakpoints from "@/components/Tailwindbreakpoints";
-import Navbar from "@/components/Navbar";
+import Tailwindbreakpoints from "components/Tailwindbreakpoints";
+import Navbar from "components/Navbar";
 
-import "@/styles/globals.css";
+import "styles/globals.css";
 
 const App = ({ Component, pageProps }: AppProps) => {
 	return (
 		<>
 			{/* progress bar on change in router */}
 			<NextNProgress
-				color="#24292F"
+				color="#000"
 				startPosition={0.0}
 				stopDelayMs={0}
 				height={2}

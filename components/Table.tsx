@@ -1,5 +1,5 @@
-import Cell from "@/components/Cell";
-import { row_values, col_values } from "@/lib/values";
+import Cell from "components/Cell";
+import { row_values, col_values } from "lib/values";
 
 const Table = ({ type }: { type: "===" | "==" }) => {
 	// console.log(String(1) == 1);

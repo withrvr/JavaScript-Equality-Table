@@ -7,7 +7,7 @@
 <h3 align="center">JavaScript-Equality-Table</h3>
 
 <div align="center">
-  <p> Comparison / Difference Between ( == vs === ) </p>
+  <p> Comparison / Difference Between ( == vs === ) and if() execution </p>
 
 <a href="https://github.com/withrvr/JavaScript-Equality-Table/issues/new?template=bug_report.md" target="_blank">Report Bug</a>
 |

@@ -14,16 +14,16 @@ const IfCondition = () => {
 			<h1 className="text-center text-2xl mb-3"> {title} </h1>
 			<div className="flex gap-8">
 				<table>
-					{col_values.map((val, key) => {
-						const str_val = printing_values[key];
-						const condition_title = `if (${str_val}) { /* ${
-							val ? "" : "Dees not"
-						} Executes */ }`;
+					<tbody>
+						{col_values.map((val, key) => {
+							const str_val = printing_values[key];
+							const condition_title = `if (${str_val}) { /* ${
+								val ? "" : "Dees not"
+							} Executes */ }`;
 
-						return (
-							<>
+							return (
 								<tr key={key}>
-									<td className="text-right pr-3 ">
+									<td className="text-right pr-3">
 										{str_val}
 									</td>
 									<td className="min-w-[1.75rem] min-h-[1.75rem] max-h-[1.75rem] w-7 h-7">
@@ -36,10 +36,9 @@ const IfCondition = () => {
 										{condition_title}
 									</td>
 								</tr>
-								<div className="h-1"></div>
-							</>
-						);
-					})}
+							);
+						})}
+					</tbody>
 				</table>
 
 				{/* TODO:

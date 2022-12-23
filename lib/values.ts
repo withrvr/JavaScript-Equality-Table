@@ -4,7 +4,7 @@
 // if just values then it act as reference
 // and reference equal to reference is always true
 
-const comman_values = [
+const common_values = [
 	true, // index 0
 	false,
 	1,
@@ -23,7 +23,7 @@ const comman_values = [
 ];
 
 const row_values = [
-	...comman_values,
+	...common_values,
 
 	[], // index 15
 	{},
@@ -35,7 +35,7 @@ const row_values = [
 ];
 
 const col_values = [
-	...comman_values,
+	...common_values,
 
 	[], // index 15
 	{},

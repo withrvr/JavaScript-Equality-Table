@@ -17,9 +17,8 @@ const IfCondition = () => {
 					<tbody>
 						{col_values.map((val, key) => {
 							const str_val = printing_values[key];
-							const condition_title = `if (${str_val}) { /* ${
-								val ? "" : "Dees not"
-							} Executes */ }`;
+							const condition_title = `if (${str_val}) { /* ${val ? "" : "Dees not"
+								} Executes */ }`;
 
 							return (
 								<tr key={key}>

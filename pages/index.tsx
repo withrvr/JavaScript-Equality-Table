@@ -8,10 +8,23 @@ const Home = () => {
 				<title>JavaScript Equality Table</title>
 			</Head>
 
-			<h1 className="text-3xl"> Site Currently Under Development </h1>
+			{/* <style jsx>{`
+				ol {
+					list-style-type: circle;
+				}
+			`}</style> */}
 
-			<ol className="text-xl list-disc list-inside my-3">
-				<li> Click on the tabs to see the result </li>
+			{/* <h1 className="text-3xl"> Site Currently Under Development </h1> */}
+
+			<ol className="text-xl list-disc list-inside my-3 ">
+				<li> Moral of the story / why make this project is : </li>
+				<li>
+					{" "}
+					Always use 3 equals (===) unless you have a good reason to
+					use 2 (==).{" "}
+				</li>
+				<li></li>
+				<li> See RESULT ... by clicking on the tabs </li>
 				<li> Hover on tables cell for more detail </li>
 			</ol>
 

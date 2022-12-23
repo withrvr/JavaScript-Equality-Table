@@ -1,6 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
-
 import Navitems from "components/Navitems";
 
 const Navbar = () => {
@@ -16,12 +13,13 @@ const Navbar = () => {
 						/>
 					</Link> */}
 
-			<Navitems href="/" text="home" />
+			<Navitems href="/" text="Home" />
 
 			<Navitems href="/3-equal-to" text="===" />
 			<Navitems href="/2-equal-to" text="==" />
 			<Navitems href="/if-condition" text="if()" />
 
+			<Navitems href="/unified" text="Unified" />
 			{/* <Navitems href="/404" text="404" /> */}
 		</nav>
 	);
